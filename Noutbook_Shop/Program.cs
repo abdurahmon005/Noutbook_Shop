@@ -32,7 +32,7 @@ class Program
                 Console.WriteLine("Mahsulotlar ro'yhati");
                 for (int i = 0; i < array_id.Length; i++)
                 {
-                    Console.WriteLine($"{array_id[i]} \t {array_product[i]} \t {array_narx[i]}");
+                    Console.WriteLine($"{array_id[i]} \t {array_product[i]} \t\t\t {array_narx[i]}");
 
                 }
                 break;
@@ -59,7 +59,7 @@ class Program
                 Console.WriteLine("mahsulotlar ro'yhati");
                 for (int i = 0; i < array_id.Length; i++)
                 {
-                    Console.WriteLine($"{array_id[i]} \t {array_product[i]} \t {array_narx[i]}");
+                    Console.WriteLine($"{array_id[i]} \t {array_product[i]} \t\t\t {array_narx[i]}");
 
                 }
                 break ;
