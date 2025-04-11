@@ -37,10 +37,24 @@ class Program
                 }
                 break;
 
-                case 2:
+            case 2:
+                Console.WriteLine("Sotib Olingan mahsulotlar royhati:");
+                bool bor = false;
+                 for(int i=0;i<array_korzinka.Length;i++)
+                {
+                    if (!String.IsNullOrEmpty(array_korzinka[i]))
+                    {
+                        Console.WriteLine($">>> {array_korzinka[i]}");
+                        bor = true;
+                    }
+                }
+                if (!bor)
+                {
+                    Console.Write("Savat bosh!!!");
+                }
+                break;
 
-
-            default:  Console.WriteLine();
+            default:  Console.WriteLine("");
 
         break;
 
@@ -48,7 +62,5 @@ class Program
          }
     }
 }
-
-
 
  
