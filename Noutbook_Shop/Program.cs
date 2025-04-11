@@ -40,6 +40,7 @@ class Program
             case 2:
                 Console.WriteLine("Sotib Olingan mahsulotlar royhati:");
                 bool bor = false;
+
                  for(int i=0;i<array_korzinka.Length;i++)
                 {
                     if (!String.IsNullOrEmpty(array_korzinka[i]))
@@ -54,6 +55,15 @@ class Program
                 }
                 break;
 
+            case 3:
+                Console.WriteLine("mahsulotlar ro'yhati");
+                for (int i = 0; i < array_id.Length; i++)
+                {
+                    Console.WriteLine($"{array_id[i]} \t {array_product[i]} \t {array_narx[i]}");
+
+                }
+                break ;
+
             default:  Console.WriteLine("");
 
         break;
@@ -62,5 +72,6 @@ class Program
          }
     }
 }
+
 
  
